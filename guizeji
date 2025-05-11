@@ -1,12 +1,9 @@
 [RoutingRule]
-
+#规则1
 DOMAIN-KEYWORD,baidu,PROXY
-DOMAIN,nhdz777.icu,PROXY
-DOMAIN,nhdz777.icu,PROXY
 DOMAIN-KEYWORD,nj,PROXY
-DOMAIN-KEYWORD,down.an,PROXY
+DOMAIN-KEYWORD,anticheatexpert,DIRECT
 PORT,10012,PROXY
-PORT,20001,PROXY
 DOMAIN,api.unipay.qq.com,REJECT
 DOMAIN,api.xunyou.mobi,REJECT
 DOMAIN,szmg.qq.com,REJECT
@@ -16,6 +13,7 @@ DOMAIN,cloud.tgpa.qq.com,REJECT
 DOMAIN,cloudctrl.gcloud.qq.com,REJECT
 DOMAIN,android.crashsinght.qq.com,REJECT
 DOMAIN,snowflake.qq.com,REJECT
+DOMAIN-KEYWORD,upload-bbs.miyoushe.com,DIRECT
 IP-CIDR,154.29.148.26,PROXY
 IP-CIDR,129.226.102.235/32,REJECT
 IP-CIDR,180.102.211.42/32,REJECT
